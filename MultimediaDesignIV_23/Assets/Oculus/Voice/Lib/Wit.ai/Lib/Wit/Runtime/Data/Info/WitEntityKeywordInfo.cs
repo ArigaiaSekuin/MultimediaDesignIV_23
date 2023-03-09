@@ -29,7 +29,7 @@ namespace Meta.WitAi.Data.Info
         /// Synonyms for specified keyword
         /// </summary>
         #if UNITY_2021_3_2 || UNITY_2021_3_3 || UNITY_2021_3_4 || UNITY_2021_3_5
-        [NonReorderable]
+        //[NonReorderable]
         #endif
         public List<string> synonyms;
 
